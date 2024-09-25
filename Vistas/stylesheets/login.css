@@ -1,0 +1,115 @@
+body {
+    line-height: 1.42857;
+    color: #5f6e85;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    font-size: 14px;
+    margin: 0;
+}
+
+.b-app-structure {
+   
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+.b-app-structure__main, .b-app-structure__secondary{
+	    width: 50%;
+	    -webkit-box-flex: 1;
+	    flex-grow: 1;
+	    flex-shrink: 0;
+	    position: relative;
+}
+
+.b-app-structure__secondary {
+    display: block;
+    transition: background .5s ease-in;
+}
+.w-page-header__title {
+
+    font-size:50px;
+
+}
+
+.b-app-structure__secondary-content {
+    color: #1d1c39;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 20px 20px 0 0;
+    font-size: 12px;
+}
+
+.b-app-structure__secondary-content_clam {
+
+    align-items: center;
+}
+
+
+a {
+	margin-left: 15px;
+}
+	
+.b-login-holder {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	padding: 180px 25px;
+	height: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.w-app-login-logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 165px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}
+
+.w-app-login-logo__image {
+    display: block;
+    max-width: 165px;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body .content {
+    width: 100%;
+}
+
+.w-page-header {
+    width: 100%;
+    color: #5f6e85;
+    margin-bottom: 25px;
+    min-height: 90px;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+}

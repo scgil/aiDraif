@@ -1,0 +1,138 @@
+html{
+    background-image: url("../images/background1.jpg");
+}
+
+body{
+
+    margin: 0px;
+    width: 100%;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+.btn_item{
+
+    background: Transparent no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.fix-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.bg-blue {
+    color: #fff;
+    background-color: #F29C21;
+    border-color: #007bff;
+}
+
+.app-name{
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.btn-primary{
+
+    background: #F29C21;
+
+}
+.btn-title{
+
+    padding: 10px;
+    font-size: 23px;
+}
+.btn-position{
+
+    margin-bottom: 15px;
+
+}
+.app-structure__header{
+    margin-bottom: 10px;
+}
+
+
+
+.app-main-logo__image {
+
+    max-width: 60px;
+}
+
+.btn-group {
+    min-width: 120px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.app-structure__content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.app-structure__main{
+
+    width: 85%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+
+.app-structure__secondary{
+
+    width: 15%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+
+.page-item.disabled .page-link {
+    color: #fff;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #F29C21;
+    border-color: #dee2e6;
+}
+.main-icons{
+
+
+    height:50px; 
+    width:50px;
+}
+
+.language-icons{
+
+    margin-right:13px;
+    height:25px; 
+    width:25px;
+}
+
+.main_functions{
+
+    list-style: none;
+}
+.function-icons{
+
+
+    height:110px; 
+    width:110px;
+}
+
+input{
+
+    border-radius: 15px;
+}
